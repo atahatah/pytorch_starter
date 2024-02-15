@@ -1,0 +1,10 @@
+/.idea
+__pycache__/
+/w-*
+.env
+
+/data
+/models
+/outputs
+/wandb-artifacts
+/wandb-runs

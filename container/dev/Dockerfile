@@ -29,7 +29,7 @@ RUN export GIT_SSL_NO_VERIFY=1 \
     && make install
 
 ENV PATH $PATH:/home/user/.local/bin
-COPY requirements.txt requirements.txt
+COPY container/dev/requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 CMD [ "/bin/zsh" ]
